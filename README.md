@@ -31,7 +31,10 @@ pip install -e . #this installs the selkie command and all dependencies
 Set up your settings file once, if you don't want to repeat them each time:
 
 ```bash
-cp SETTINGS/PATHS/general_paths.example.yml SETTINGS/PATHS/general_paths.yml 
+#CMD
+copy SETTINGS/PATHS/general_paths.example.yml SETTINGS/PATHS/general_paths.yml
+#Bash
+cp SETTINGS/PATHS/general_paths.example.yml SETTINGS/PATHS/general_paths.yml
 # then edit general_paths.yml to point at your own config/output locations
 ```
 
